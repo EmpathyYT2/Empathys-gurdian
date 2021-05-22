@@ -269,8 +269,7 @@ async def on_message(message):
                 sent.set_footer(text=f"{message.author} | {message.author.id}", icon_url=message.author.avatar_url)
                 sent.timestamp = datetime.utcnow()
                 await message.author.send(embed=sent)
-
-
+fsdffsd
     if message.channel.id in bot.chanels:
         memebr = bot.get_user(bot.id_channels[message.channel.id])
 
